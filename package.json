@@ -1,0 +1,31 @@
+{
+  "name": "client-appium",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "pm2 start appium && pm2 start subscribe_client.js && pm2 start kplus_sme.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "appium": "^1.17.0",
+    "assert": "^2.0.0",
+    "aws-sdk": "^2.604.0",
+    "firebase-admin": "^8.12.1",
+    "fs": "0.0.1-security",
+    "kue": "^0.11.6",
+    "line-api": "^0.1.4",
+    "log": "^6.0.0",
+    "mqtt": "^3.0.0",
+    "multer": "^1.4.2",
+    "multer-s3": "^2.9.0",
+    "mysql": "^2.17.1",
+    "path": "^0.12.7",
+    "request": "^2.88.0",
+    "sleep": "^6.1.0",
+    "webdriverio": "^5.16.9"
+  }
+}
